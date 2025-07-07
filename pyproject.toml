@@ -1,0 +1,61 @@
+[tool.black]
+skip-string-normalization = true
+
+[tool.isort]
+profile = "black"
+extend_skip = [".md", ".json"]
+skip_gitignore = true
+
+[tool.poetry]
+name = "forschungsprojekt_ape"
+version = "5.3.2"
+description = "Forschungsprojekt APE MAster"
+authors = ["manuelcaipocc@outlook.com"]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+pandas = "1.2.4"
+scikit-learn = "1.1.2"
+xgboost = "^1.6.1"
+treeinterpreter = "^0.2.3"
+loguru = "^0.6.0"
+azureml-core = "^1.44.0"
+azure-identity = "^1.10.0"
+azureml-mlflow = "^1.44.0"
+openpyxl = "^3.0.10"
+scikit-fuzzy = "^0.4.2"
+python-Levenshtein = "^0.20.8"
+fuzzywuzzy = "^0.18.0"
+statsmodels = "0.12.2"
+scipy = "1.6.2"
+snowflake-snowpark-python = "^1.4.0"
+ipython = "8.12"
+ipykernel = "^6.25.2"
+
+[tool.poetry.group.dev.dependencies]
+seaborn = "^0.12.0"
+matplotlib = "^3.6.0"
+keyring = "^23.11.0"
+artifacts-keyring = "^0.3.2"
+black = "^22.6.0"
+flake8 = "^4.0.1"
+pytest = "^7.1.2"
+pre-commit = "^2.20.0"
+pytest-cov = "^3.0.0"
+isort = "^5.12.0"
+invoke = "^1.7.1"
+databricks-cli = "^0.17.2"
+Jinja2 = "^3.1.2"
+safety = "^2.1.1"
+bandit = "^1.7.4"
+mypy = "^0.991"
+types-PyYAML = "^6.0.12.2"
+types-python-dateutil = "^2.8.19.4"
+pandas-stubs = "^1.5.2.230105"
+ipykernel = "^6.23.2"
+
+[tool.poetry.scripts]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
