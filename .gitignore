@@ -1,0 +1,56 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.eggs/
+
+# Ignore virtual environment directories
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry-specific files
+poetry.lock
+.poetry/
+
+# Log files and caches
+logs/
+*.log
+*.out
+*.err
+.cache/
+.ipython/
+.mypy_cache/
+.pytest_cache/
+.dagster/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor-specific settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg
+MANIFEST
+
+# Ignore temporary Docker-related files
+docker-compose.override.yml
+docker-compose.override.yaml
+**/Dockerfile~
+
+# Ignore SSH keys and sensitive credentials
+*.pem
+*.crt
+*.key
+
+# Ignore OS-specific temporary files
+.DS_Store
+Thumbs.db
