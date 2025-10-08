@@ -1,22 +1,22 @@
 <mxfile host="65bd71144e">
     <diagram id="sjHTkaefTdHyTktNE4JX" name="Page-1">
-        <mxGraphModel dx="2758" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2531" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#CCCCCC;" edge="1" parent="1" source="3" target="6">
+                <mxCell id="2" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#CCCCCC;" parent="1" source="3" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;strong data-end=&quot;212&quot; data-start=&quot;176&quot;&gt;[1. Fault &amp;amp; Downtime Detection ]&lt;/strong&gt;&lt;strong style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot; data-end=&quot;212&quot; data-start=&quot;176&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Automatic event detection from PLC layer or derived from OPC UA sensor data using condition functions.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=3.5;fontSize=32;perimeterSpacing=2;fillColor=#d5e8d4;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;strong data-end=&quot;212&quot; data-start=&quot;176&quot;&gt;[1. Fault &amp;amp; Downtime Detection ]&lt;/strong&gt;&lt;strong style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot; data-end=&quot;212&quot; data-start=&quot;176&quot;&gt;&amp;nbsp;&lt;/strong&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Automatic event detection from PLC layer or derived from OPC UA sensor data using condition functions.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=3.5;fontSize=32;perimeterSpacing=2;fillColor=#d5e8d4;" parent="1" vertex="1">
                     <mxGeometry x="90" y="340" width="398" height="478.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;strong data-end=&quot;484&quot; data-start=&quot;451&quot;&gt;[3. Analytics &amp;amp; Integration]&amp;nbsp;&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Enables correlation of downtime events with operational sensor data for predictive and root-cause analysi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=3;fontSize=30;perimeterSpacing=3;fillColor=#dae8fc;" vertex="1" parent="1">
+                <mxCell id="4" value="&lt;strong data-end=&quot;484&quot; data-start=&quot;451&quot;&gt;[3. Analytics &amp;amp; Integration]&amp;nbsp;&lt;/strong&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Enables correlation of downtime events with operational sensor data for predictive and root-cause analysis.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=3;fontSize=30;perimeterSpacing=3;fillColor=#dae8fc;" parent="1" vertex="1">
                     <mxGeometry x="1160" y="340" width="430" height="478.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#CCCCCC;" edge="1" parent="1" source="6" target="4">
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#CCCCCC;" parent="1" source="6" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="&lt;b&gt;[2. Event Logging ]&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&amp;nbsp;Structured storage in event_log linked to assets, locations, calendar, categories, problems, and causes.ation into other hydraulic systems.&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#b85450;fontSize=30;perimeterSpacing=3;fillColor=#f8cecc;" vertex="1" parent="1">
+                <mxCell id="6" value="&lt;b&gt;[2. Event Logging ]&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&amp;nbsp;Structured storage in event_log linked to assets, locations, calendar, categories, problems, and causes.ation into other hydraulic systems.&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#b85450;fontSize=30;perimeterSpacing=3;fillColor=#f8cecc;" parent="1" vertex="1">
                     <mxGeometry x="598" y="340" width="458" height="478.5" as="geometry"/>
                 </mxCell>
             </root>
