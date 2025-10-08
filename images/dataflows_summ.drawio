@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="9MJtlUZovTA3999PRgLq" name="Page-1">
+        <mxGraphModel dx="2206" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="321" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#CCCCCC;" edge="1" parent="1" source="206" target="319">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="&lt;strong data-end=&quot;599&quot; data-start=&quot;562&quot;&gt;[1. Data Acquisition &amp;amp; Streaming]&lt;/strong&gt;&lt;br data-end=&quot;602&quot; data-start=&quot;599&quot;&gt;&lt;br&gt;OPC UA-based CtrlX data is published through Solace for real-time ETL integration." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=3.5;fontSize=32;perimeterSpacing=2;fillColor=#dae8fc;" parent="1" vertex="1">
+                    <mxGeometry x="52" y="340" width="448" height="478.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="&lt;strong data-end=&quot;190&quot; data-start=&quot;161&quot;&gt;[3. Analytics &amp;amp; AI Layer]&lt;/strong&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;Dagster orchestrates ML/DL workflows for model training, prediction, and visualization.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;strokeWidth=3;fontSize=30;perimeterSpacing=3;fillColor=#e1d5e7;" parent="1" vertex="1">
+                    <mxGeometry x="1172" y="340" width="430" height="478.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#CCCCCC;" edge="1" parent="1" source="319" target="253">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" value="&lt;strong data-end=&quot;247&quot; data-start=&quot;207&quot;&gt;[2. Data Processing &amp;amp; Storage Layer]&lt;/strong&gt;&lt;div&gt;&lt;br&gt;Hybrid ETL performs normalization and time-based aggregation, storing results in PostgreSQL and InfluxDB.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#d79b00;fontSize=30;perimeterSpacing=3;fillColor=#ffe6cc;" vertex="1" parent="1">
+                    <mxGeometry x="612" y="340" width="458" height="478.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
